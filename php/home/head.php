@@ -2,7 +2,7 @@
   <head>
   <meta  charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dr. Bharat Shah</title>
+  <title>Dr. Bharat Shah - PHP</title>
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="favicon.png">
