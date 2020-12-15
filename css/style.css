@@ -2378,7 +2378,10 @@ img.mfp-img{
 .header-breast-surgery {
   background: #fff url('../img/slider/liposuction-Breast-Lift-6-1200x675.png') right center no-repeat;
   background-size: 100%;
-  padding-bottom: 20%;
+}
+
+.hero-content-header {
+  padding-bottom: 30%;
   position: relative;
 }
 
@@ -2533,7 +2536,9 @@ img.mfp-img{
 
   /* Content styles */
 
-
+  .hero-content-header {
+    padding-bottom: 25%;
+  }
 
   .text-center-md{
     text-align: center;
@@ -2636,7 +2641,9 @@ img.mfp-img{
 
    /* Header */
 
-
+   .hero-content-header {
+     padding-bottom: 20%;
+   }
 
   .main-header{
     padding-left: 0;

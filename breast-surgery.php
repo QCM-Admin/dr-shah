@@ -5,7 +5,7 @@
     <!-- Loader -->
     <?php include ('controls/global/loader.php');?>
     <!-- Header -->
-    <header id="top" class="header-breast-surgery">
+    <header id="top" class="hero-content-header header-breast-surgery">
       <?php
         //Brand Panel
         include ('controls/breast-surgery/page-header.php');
