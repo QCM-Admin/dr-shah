@@ -1,11 +1,11 @@
 /* ------------------------------------------------------------------------------
 
-  Template Name: Go.arch 
+  Template Name: Go.arch
   Description: Go.arch  - Architecture HTML Template
   Author: Murren
   Author URI: http://themeforest.net/user/murren20
   Version: 1.0
-  
+
   1.  Global
 
       1.1 General
@@ -16,7 +16,7 @@
       1.6 Loader
       1.7 Content styles
 
-  2.  Header 
+  2.  Header
 
       2.1 Brand
       2.2 Vertical Panel
@@ -24,7 +24,7 @@
       2.4 Navbar Desctop Affix
       2.5 Navbar Mobile
       2.6 Navbar Mobile Affix
-      
+
 
   3.  Main
 
@@ -49,17 +49,17 @@
       8.2 Widgets
       8.3 Widget Recent Post
 
-  9.  Contacts  
+  9.  Contacts
   10. Footer
   11. Responsive styles
 
       11.1 Min width: 768px
       11.2 Min width 992px
-      11.3 Min width 1200px 
+      11.3 Min width 1200px
       11.4 Max height 480px
 
-    
-    
+
+
 /*-------------------------------------------------------------------------------
   1. Global
 -------------------------------------------------------------------------------*/
@@ -142,7 +142,7 @@ body{
 }
 
 h1,
-.h1{ 
+.h1{
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 8vmin;
@@ -153,7 +153,7 @@ h1,
 }
 
 h2,
-.h2{ 
+.h2{
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 2.1875em;
@@ -418,7 +418,7 @@ label.error{
   position: relative;
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
-          transform: scale(1.1); 
+          transform: scale(1.1);
 }
 
 .sk-folding-cube .sk-cube:before {
@@ -458,7 +458,7 @@ label.error{
 
 .sk-folding-cube .sk-cube3:before {
   -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s; 
+          animation-delay: 0.6s;
 }
 
 .sk-folding-cube .sk-cube4:before {
@@ -470,31 +470,31 @@ label.error{
   0%, 10% {
     -webkit-transform: perspective(140px) rotateX(-180deg);
             transform: perspective(140px) rotateX(-180deg);
-    opacity: 0; 
+    opacity: 0;
   } 25%, 75% {
     -webkit-transform: perspective(140px) rotateX(0deg);
             transform: perspective(140px) rotateX(0deg);
-    opacity: 1; 
+    opacity: 1;
   } 90%, 100% {
     -webkit-transform: perspective(140px) rotateY(180deg);
             transform: perspective(140px) rotateY(180deg);
-    opacity: 0; 
-  } 
+    opacity: 0;
+  }
 }
 
 @keyframes sk-foldCubeAngle {
   0%, 10% {
     -webkit-transform: perspective(140px) rotateX(-180deg);
             transform: perspective(140px) rotateX(-180deg);
-    opacity: 0; 
+    opacity: 0;
   } 25%, 75% {
     -webkit-transform: perspective(140px) rotateX(0deg);
             transform: perspective(140px) rotateX(0deg);
-    opacity: 1; 
+    opacity: 1;
   } 90%, 100% {
     -webkit-transform: perspective(140px) rotateY(180deg);
             transform: perspective(140px) rotateY(180deg);
-    opacity: 0; 
+    opacity: 0;
   }
 }
 
@@ -588,6 +588,12 @@ label.error{
   margin-top: 7.1em;
 }
 
+.p-content {
+  max-width: 800px;
+  margin: 1em auto;
+  text-align: center;
+  color: #3d3d3c;
+}
 
 
 /*-------------------------------------------------------------------------------
@@ -684,7 +690,7 @@ label.error{
   letter-spacing: 0.32em;
   position: absolute;
   z-index: 2;
-  color: #fff;
+  color: #282828;
   left: 50vmin;
   top:5.9vmin;
 }
@@ -959,7 +965,7 @@ label.error{
 .navbar-toggle .icon-bar{
   background-color:#fff;
   height: 2px;
-  width: 30px; 
+  width: 30px;
 }
 
 .navbar-toggle .icon-bar + .icon-bar{
@@ -1274,11 +1280,11 @@ label.error{
 
 .col-about-title{
   margin-top: 0;
-  margin-bottom:1.1em; 
+  margin-bottom:1.1em;
 }
 
 .col-about-info p:last-child{
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 .col-about-img{
@@ -1306,7 +1312,7 @@ label.error{
 }
 
 .service-item{
-  margin-bottom:2em; 
+  margin-bottom:2em;
 }
 
 .service-item:last-child{
@@ -1457,7 +1463,7 @@ label.error{
 .project.project-light figure:after{
   opacity: 0.4;
 }
-    
+
 .project figcaption{
   position: absolute;
   z-index: 1;
@@ -1601,7 +1607,7 @@ label.error{
   padding-left: 35px;
   background:url(../img/img-icon/prev.png) left 50% no-repeat;
   background-size: 1.3em 1em;
-  
+
 }
 
 .owl-next{
@@ -1626,7 +1632,7 @@ label.error{
   overflow: visible;
 }
 
-.mfp-image-holder .mfp-close, 
+.mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close{
   padding: 0;
   margin-top: -10px;
@@ -1728,11 +1734,11 @@ img.mfp-img{
       -ms-transform: rotateX(-60deg);
        -o-transform: rotateX(-60deg);
           transform: rotateX(-60deg);
-  
+
 }
 
-.mfp-zoom-out-cur, 
-.mfp-zoom-out-cur 
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur
 .mfp-image-holder .mfp-close{
   cursor:url(../img/zoom-out.cur), zoom-out;
 }
@@ -2342,10 +2348,43 @@ img.mfp-img{
   text-decoration: none;
 }
 
+/* ------------------------------------------------------------------------------- */
+/*  11. Breast Surgery Styles
+/* ------------------------------------------------------------------------------- */
+.social-wrap, #content-panel.brand-panel .brand-name {display: none;}
+#content-panel.brand-panel {border: none;width: 100%;}
+.content-page{padding-top: 0;}
+#content-panel.brand-panel {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(197 164 126 / 75%);
+}
+/* .content-social-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+  padding: 1em;
+}
+
+.content-social-list li {font-size: 2em;}
+.content-social-list li a {text-decoration: none !important;}
+
+.social-wrap {margin-top: 2em;}
+.social-wrap .header-phone {position: inherit;}
+ */
+
+.header-breast-surgery {
+  background: #fff url('../img/slider/liposuction-Breast-Lift-6-1200x675.png') right center no-repeat;
+  background-size: 100%;
+  padding-bottom: 20%;
+  position: relative;
+}
 
 
 /* ------------------------------------------------------------------------------- */
-/*  11. Responsive styles
+/*  12. Responsive styles
 /* ------------------------------------------------------------------------------- */
 
 
@@ -2355,6 +2394,37 @@ img.mfp-img{
 
 
 @media (min-width: 768px){
+  .social-wrap, #content-panel.brand-panel .brand-name {display: block;}
+
+  .content-social-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    padding: 1em;
+  }
+
+  #content-panel.brand-panel {
+    height: 100%;
+    width: 39.47vmin;
+    background-color: rgb(197 164 126 / 75%);
+    border: solid 5px #fff;
+    border-bottom: none;
+  }
+
+  #content-panel.brand-panel .brand-name {
+    right: auto;
+    opacity: .09;
+    font-size: 4.75em;
+    white-space: nowrap;
+  }
+
+  .content-social-list li {font-size: 2em;}
+  .content-social-list li a {text-decoration: none !important;}
+
+  .social-wrap {margin-top: 2em;}
+  .social-wrap .header-phone {position: inherit;}
 
 
 
@@ -2478,7 +2548,7 @@ img.mfp-img{
   }
 
 
-  
+
   /* Navbar Mobile */
 
 
@@ -2524,7 +2594,7 @@ img.mfp-img{
   /* Blog Details */
 
 
-  
+
   .col-primary{
     padding-right: 2.2em;
   }
@@ -2613,5 +2683,3 @@ img.mfp-img{
     z-index: 1;
   }
 }
-
-

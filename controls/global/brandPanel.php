@@ -1,4 +1,5 @@
-<?php echo '
+<?php
+echo '
 <div class="brand-panel">
   <a href="#top" class="brand js-target-scroll">
     <img src="img/slider/BSHAH-black.png"  alt="" height="30">
