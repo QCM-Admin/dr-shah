@@ -2,7 +2,7 @@
 <div class="menu__item menu__item--3" data-direction="bt">
   <div class="menu__item-inner">
     <div class="sidemenu">
-      <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Breast Surgery</span></a>
+      <a href="/breast-surgery.php" class="sidemenu__item"><span class="sidemenu__item-inner">Breast Surgery</span></a>
       <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Male Breast Surgery</span></a>
       <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Body Contouring</span></a>
       <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Facial Cosmetic Surgery</span></a>

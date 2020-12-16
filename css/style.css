@@ -592,7 +592,9 @@ label.error{
   max-width: 800px;
   margin: 1em auto;
   text-align: center;
-  color: #3d3d3c;
+  color: #666;
+  font-weight: 100;
+  font-family: 'montserratlight', sans-serif;
 }
 
 
@@ -1871,6 +1873,8 @@ img.mfp-img{
 
 .clients{
   text-align: center;
+  padding: 1em 0;
+  background: #f3f3f3;
 }
 
 .clients-list{
@@ -1890,6 +1894,9 @@ img.mfp-img{
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  background: #c5a47e;
+  padding: .5em;
+  border-radius: 5px;
 }
 
 .clients-list .client a:hover img{
@@ -2351,7 +2358,7 @@ img.mfp-img{
 /* ------------------------------------------------------------------------------- */
 /*  11. Breast Surgery Styles
 /* ------------------------------------------------------------------------------- */
-.social-wrap, #content-panel.brand-panel .brand-name {display: none;}
+#content-panel.brand-panel .brand-name {display: none;}
 #content-panel.brand-panel {border: none;width: 100%;}
 .content-page{padding-top: 0;}
 #content-panel.brand-panel {
@@ -2359,7 +2366,7 @@ img.mfp-img{
   width: 100%;
   background-color: rgb(197 164 126 / 75%);
 }
-/* .content-social-list {
+.content-social-list {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -2368,12 +2375,12 @@ img.mfp-img{
   padding: 1em;
 }
 
-.content-social-list li {font-size: 2em;}
-.content-social-list li a {text-decoration: none !important;}
+.content-social-list li {font-size: 1.35em;}
+.content-social-list li a {text-decoration: none !important;color: #fff;}
 
-.social-wrap {margin-top: 2em;}
-.social-wrap .header-phone {position: inherit;}
- */
+.social-wrap {max-width: 400px;margin: 1em auto;}
+.social-wrap .header-phone {position: inherit;font-size: 1em;display: block !important;}
+
 
 .header-breast-surgery {
   background: #fff url('../img/slider/liposuction-Breast-Lift-6-1200x675.png') right center no-repeat;
@@ -2411,7 +2418,7 @@ img.mfp-img{
   #content-panel.brand-panel {
     height: 100%;
     width: 39.47vmin;
-    background-color: rgb(197 164 126 / 75%);
+    background-color: rgb(197 164 126 / 100%);
     border: solid 5px #fff;
     border-bottom: none;
   }
@@ -2423,7 +2430,7 @@ img.mfp-img{
     white-space: nowrap;
   }
 
-  .content-social-list li {font-size: 2em;}
+  .content-social-list li {font-size: 1.5em;}
   .content-social-list li a {text-decoration: none !important;}
 
   .social-wrap {margin-top: 2em;}
@@ -2537,7 +2544,7 @@ img.mfp-img{
   /* Content styles */
 
   .hero-content-header {
-    padding-bottom: 25%;
+    padding-bottom: 275px;
   }
 
   .text-center-md{
@@ -2640,10 +2647,6 @@ img.mfp-img{
 
 
    /* Header */
-
-   .hero-content-header {
-     padding-bottom: 20%;
-   }
 
   .main-header{
     padding-left: 0;

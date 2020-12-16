@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2018, Codrops
  * http://www.codrops.com
  */
@@ -93,7 +93,7 @@
                     configInner.x = '-101%';
                     configInner.y = '-101%';
                 }
-                
+
                 if ( action === 'open' ) {
                     // Setting the initial values.
                     TweenMax.set(el, config);
@@ -163,9 +163,9 @@
 
     // Preload images.
     imagesLoaded(document.querySelector('.backgroundz'), {background: true}, () => document.body.classList.remove('loading'));
-    
+
     // extra stuff..
-    
+
     // From http://www.quirksmode.org/js/events_properties.html#position
     // Get the mouse position.
 	const getMousePos = (e) => {
@@ -195,7 +195,7 @@
         layout() {
             let inner = '';
             for (let i = 0; i <= this.layersTotal-1; ++i) {
-                inner +=  '<div class="backgroundz__copy" style="background-image: url(img/1.jpg)"></div>';
+                inner +=  '<div class="backgroundz__copy" style="background-image: url(../img/slider/1.jpeg)"></div>';
             }
             this.DOM.main.innerHTML = inner;
             this.DOM.layers = Array.from(this.DOM.main.querySelectorAll('.backgroundz__copy'));
@@ -210,8 +210,8 @@
             const mousepos = getMousePos(ev);
             const bounds = this.DOM.main.getBoundingClientRect();
             // Mouse position relative to the main element (this.DOM.main).
-            const relmousepos = { 
-                x : mousepos.x - bounds.left, 
+            const relmousepos = {
+                x : mousepos.x - bounds.left,
                 y : mousepos.y - bounds.top
             };
 
