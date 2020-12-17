@@ -2392,6 +2392,12 @@ img.mfp-img{
   position: relative;
 }
 
+/* body contouring */
+
+.header-body-contouring {
+  background: #fff url('../img/projects/adsfadf.jpg') right center no-repeat;
+  background-size: 100%;
+}
 
 /* ------------------------------------------------------------------------------- */
 /*  12. Responsive styles
