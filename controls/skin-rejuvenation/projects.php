@@ -9,7 +9,7 @@
   <div class="section-content">
     <div class="projects-carousel js-projects-carousel js-projects-gallery">
       <div class="project project-light">
-        <a href="breast-augmentation.php" title="project 1">
+        <a href="img/projects/1-480x880.jpg" title="project 1">
           <figure>
             <img alt="" src="img/projects/1-480x880.jpg">
             <figcaption>
@@ -19,45 +19,45 @@
               <h4 class="project-category">
                 Breast Surgery
               </h4>
-              
+              <div class="project-zoom"></div>
             </figcaption>
           </figure>
         </a>
       </div>
       <div class="project project-light">
-        <a href="breast-reduction.php" title="project 2">
+        <a href="img/projects/2-480x880.jpg" title="project 2">
           <figure>
             <img alt="" src="img/projects/2-480x880.jpg">
             <figcaption>
               <h3 class="project-title">
-                Breast Reduction
+                Breast<br> Augmentation - Revisions
               </h3>
               <h4 class="project-category">
                 Breast Surgery
               </h4>
-              
+              <div class="project-zoom"></div>
             </figcaption>
           </figure>
         </a>
       </div>
       <div class="project">
-        <a href="breast-lift.php" title="project 3">
+        <a href="img/projects/3-480x880.jpg" title="project 3">
           <figure>
             <img alt="" src="img/projects/3-480x880.jpg">
             <figcaption>
               <h3 class="project-title">
-                Breast Lift
+                Breast Lift (Mastopexy)<br> Breast Reduction
               </h3>
               <h4 class="project-category">
                 Breast Surgery
               </h4>
-              
+              <div class="project-zoom"></div>
             </figcaption>
           </figure>
         </a>
       </div>
       <div class="project">
-        <a href="breast-reconstruction.php" title="project 4">
+        <a href="img/projects/4-480x880.jpg" title="project 4">
           <figure>
             <img alt="" src="img/projects/4-480x880.jpg">
             <figcaption>
@@ -67,24 +67,7 @@
               <h4 class="project-category">
                 Breast Surgery
               </h4>
-              
-            </figcaption>
-          </figure>
-        </a>
-      </div>
-
-      <div class="project">
-        <a href="male-breast-reduction.php" title="project 4">
-          <figure>
-            <img alt="" src="img/projects/4-480x880.jpg">
-            <figcaption>
-              <h3 class="project-title">
-                Male Breast<br> Reduction
-              </h3>
-              <h4 class="project-category">
-                Breast Surgery
-              </h4>
-              
+              <div class="project-zoom"></div>
             </figcaption>
           </figure>
         </a>

@@ -6,8 +6,9 @@
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.magnific-popup.js"></script>
+  
   <script src="js/owl.carousel.min.js"></script>
+  <script src="js/before-after.min.js"></script>
 
   <!-- SLIDER REVOLUTION -->
   <script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>

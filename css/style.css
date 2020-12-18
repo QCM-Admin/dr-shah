@@ -2399,6 +2399,23 @@ img.mfp-img{
   background-size: 100%;
 }
 
+/* facial cosmetic surgery*/
+.header-facial-cosmetic-surgery {
+  background: #fff url('../img/slider/chin-augmentation.jpg') right center no-repeat;
+  background-size: 100%;
+}
+
+.header-hair-loss-treatments {
+  background: #fff url('../img/slider/capillus_Mobile.jpg') right 30% no-repeat;
+  background-size: 100%;
+}
+
+.flex-image-section {
+  display: flex!important;
+  flex-direction: row;
+  justify-content: center;
+}
+
 /* ------------------------------------------------------------------------------- */
 /*  12. Responsive styles
 /* ------------------------------------------------------------------------------- */

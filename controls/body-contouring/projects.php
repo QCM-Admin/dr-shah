@@ -8,7 +8,7 @@
   <div class="section-content">
     <div class="projects-carousel js-projects-carousel js-projects-gallery">
     <div class="project">
-        <a href="img/projects/adsfadf.jpg" title="project 7">
+        <a href="liposuction.php" title="project 7">
           <figure>
             <img alt="" src="img/projects/6-480x880.jpg">
             <figcaption>
@@ -18,13 +18,13 @@
               <h4 class="project-category">
                 Body Contouring
               </h4>
-              <div class="project-zoom"></div>
+             
             </figcaption>
           </figure>
         </a>
       </div>
       <div class="project">
-        <a href="img/projects/7-480x880.jpg" title="project 8">
+        <a href="abdominoplasty.php" title="project 8">
           <figure>
             <img alt="" src="img/projects/7-480x880.jpg">
             <figcaption>
@@ -34,13 +34,13 @@
               <h4 class="project-category">
                 Body Contouring
               </h4>
-              <div class="project-zoom"></div>
+              
             </figcaption>
           </figure>
         </a>
       </div>
       <div class="project">
-        <a href="img/projects/3-480x880.jpg" title="project 3">
+        <a href="arm-lift.php" title="project 3">
           <figure>
             <img alt="" src="img/projects/3-480x880.jpg">
             <figcaption>
@@ -50,13 +50,13 @@
               <h4 class="project-category">
               Body Contouring
               </h4>
-              <div class="project-zoom"></div>
+              
             </figcaption>
           </figure>
         </a>
       </div>
       <div class="project">
-        <a href="img/projects/4-480x880.jpg" title="project 4">
+        <a href="thigh-lift.php" title="project 4">
           <figure>
             <img alt="" src="img/projects/4-480x880.jpg">
             <figcaption>
@@ -66,13 +66,13 @@
               <h4 class="project-category">
               Body Contouring
               </h4>
-              <div class="project-zoom"></div>
+              
             </figcaption>
           </figure>
         </a>
       </div>
       <div class="project">
-        <a href="img/projects/4-480x880.jpg" title="project 4">
+        <a href="body-contouring-after-massive-weight-loss.php" title="project 4">
           <figure>
             <img alt="" src="img/projects/4-480x880.jpg">
             <figcaption>
@@ -82,13 +82,13 @@
               <h4 class="project-category">
               Body Contouring
               </h4>
-              <div class="project-zoom"></div>
+              
             </figcaption>
           </figure>
         </a>
       </div>
       <div class="project">
-        <a href="img/projects/4-480x880.jpg" title="project 4">
+        <a href="post-pregnancy-body-sculpting.php" title="project 4">
           <figure>
             <img alt="" src="img/projects/4-480x880.jpg">
             <figcaption>
@@ -98,7 +98,6 @@
               <h4 class="project-category">
               Body Contouring
               </h4>
-              <div class="project-zoom"></div>
             </figcaption>
           </figure>
         </a>
